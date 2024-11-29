@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.3">
+  <diagram name="Page-1" id="u4gHHqxyyjsf5BTyDvfq">
+    <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HDMmQDN_qEk9YpZpgcxO-2" value="&lt;b&gt;Kasutaja&lt;/b&gt;&lt;div&gt;Id: bigint&lt;/div&gt;&lt;div&gt;Nimi: varchar&lt;/div&gt;&lt;div&gt;Aadress: varchar&lt;/div&gt;&lt;div&gt;E-post: varchar&lt;/div&gt;&lt;div&gt;Telefon: bigint&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HDMmQDN_qEk9YpZpgcxO-3" value="&lt;b&gt;Kaust&lt;/b&gt;&lt;div&gt;Omanik: varchar&lt;/div&gt;&lt;div&gt;Kausta nimi: varchar&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HDMmQDN_qEk9YpZpgcxO-4" value="&lt;b&gt;Pilveteenus&lt;/b&gt;&lt;div&gt;Omanik: varchar&lt;br&gt;&lt;div&gt;Kausta nimi: varchar&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HDMmQDN_qEk9YpZpgcxO-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HDMmQDN_qEk9YpZpgcxO-2" target="HDMmQDN_qEk9YpZpgcxO-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="600" as="sourcePoint" />
+            <mxPoint x="450" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDMmQDN_qEk9YpZpgcxO-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="619.5" as="sourcePoint" />
+            <mxPoint x="600" y="619.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDMmQDN_qEk9YpZpgcxO-10" value="&lt;div&gt;&lt;b&gt;Fotod&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Pealkiri: varchar&lt;/div&gt;&lt;div&gt;Kirjeldus: varchar&lt;/div&gt;&lt;div&gt;Kordinaadid: bigint&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="800" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HDMmQDN_qEk9YpZpgcxO-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HDMmQDN_qEk9YpZpgcxO-3" target="HDMmQDN_qEk9YpZpgcxO-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="629.5" as="sourcePoint" />
+            <mxPoint x="610" y="629.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
